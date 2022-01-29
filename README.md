@@ -1,4 +1,5 @@
 # :wave: The Basics of GitHub 
+お試しに編集しとります
 
 ## 🤓 Course overview and learning outcomes 
 

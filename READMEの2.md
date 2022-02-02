@@ -2,7 +2,7 @@
 お試しに編集しとります。これはテスト第二弾の文章ですというのは嘘です。
 
 ## 🤓 Course overview and learning outcomes 
-
+そしてまたコミット実験のためにテストです
 The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
 
 ## :octocat: Git and GitHub

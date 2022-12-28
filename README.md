@@ -14,12 +14,18 @@
 
       // 第4問 Q4の要素をクリックしたらこの要素の前後とこの要素内の前後に<p>テキスト</p>を挿入せよ。
    $("#jsi-q4").on('click', () => {
-          $(this).css("color", "#FF0000");
-        if (clickCount >= 2) {
-          $(this).css("color", "FFFFFF");
+             $(this).prepend("<p>テキスト</p>")
+   .append("<p>テキスト</p>")
+   .before("<p>テキスト</p>")
+   .after("<p>テキスト</p>")
+;
         }
       }
       );
+.prepend("前  ")
+           .append("  後")
+           .before("DOMの前")
+           .after("DOMの後");
       // 第5問 Q5の要素をクリックしたらこの要素からis-bigというクラスを削除せよ。
 
       // 第6問 Q6の要素をクリックしたらこの要素を0.5秒かけてmargin-rightとmargin-bottomを150pxの位置に移動させよ。
